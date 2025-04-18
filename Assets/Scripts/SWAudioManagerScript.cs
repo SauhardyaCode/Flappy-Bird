@@ -1,16 +1,12 @@
 using UnityEngine;
 
-public class AudioManagerScript : MonoBehaviour
+public class SWAudioManagerScript : MonoBehaviour
 {
     public AudioSource musicSource;
     public AudioSource sfxSource;
 
     public AudioClip backgroundClip;
-    public AudioClip crashClip;
-    public AudioClip pointClip;
     public AudioClip buttonClip;
-    public AudioClip gameOver1;
-    public AudioClip gameOver2;
 
     public float[] pitchRandomizeRange = { 0.9f, 1.1f };
 
@@ -33,5 +29,4 @@ public class AudioManagerScript : MonoBehaviour
         }
         sfxSource.PlayOneShot(clip);
     }
-
 }

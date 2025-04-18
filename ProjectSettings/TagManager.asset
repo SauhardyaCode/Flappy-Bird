@@ -11,6 +11,7 @@ TagManager:
   - HighScore Tag
   - Light Tag
   - Score Tag
+  - Cursor Tag
   layers:
   - Default
   - TransparentFX
@@ -47,6 +48,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1097044623
+    locked: 0
+  - name: Playables
+    uniqueID: 3461981505
+    locked: 0
+  - name: UI
+    uniqueID: 1283360719
     locked: 0
   m_RenderingLayers:
   - Default

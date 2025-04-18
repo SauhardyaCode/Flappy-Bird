@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      klipartz.com_0: -9189654260004807166
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

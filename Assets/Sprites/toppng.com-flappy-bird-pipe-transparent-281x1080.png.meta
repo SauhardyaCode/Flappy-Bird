@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      toppng.com-flappy-bird-pipe-transparent-281x1080_0: 6125696281398554905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

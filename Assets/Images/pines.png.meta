@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 0fc3fbc0c61740f4d895d111d2799de7
+guid: 69fdfdb9afb1a7e4a8f3bf3e29ca18bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6809837261257331441
-    second: ChatGPT Image Apr 16, 2025, 10_22_51 PM_0
+      213: 7697723109437168217
+    second: pines_0
+  - first:
+      213: -1732240969106971120
+    second: pines_1
+  - first:
+      213: -8381345919506296997
+    second: pines_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +46,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT Image Apr 16, 2025, 10_22_51 PM_0
+      name: pines_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 197
         y: 0
-        width: 1024
-        height: 1024
+        width: 125
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0da98847199e71a0800000000000000
-      internalID: -6809837261257331441
+      spriteID: 95a515d326ec3da60800000000000000
+      internalID: 7697723109437168217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pines_1
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 0
+        width: 344
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01620033408d5f7e0800000000000000
+      internalID: -1732240969106971120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pines_2
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 0
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f4820ea4a7fab80800000000000000
+      internalID: -8381345919506296997
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT Image Apr 16, 2025, 10_22_51 PM_0: -6809837261257331441
+      pines_0: 7697723109437168217
+      pines_1: -1732240969106971120
+      pines_2: -8381345919506296997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
