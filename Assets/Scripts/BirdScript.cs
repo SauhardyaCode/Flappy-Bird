@@ -36,6 +36,7 @@ public class BirdScript : MonoBehaviour
             {
                 birdBody.linearVelocityY = flapStrength;
                 animator.SetBool("hasFlapped", true);
+                audioManager.PlaySFX(audioManager.flapClip);
             }
             if (transform.position.y < groundPos || transform.position.y > skyPos)
             {

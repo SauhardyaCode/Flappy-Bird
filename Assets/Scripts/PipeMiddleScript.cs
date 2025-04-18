@@ -18,7 +18,6 @@ public class PipeMiddleScript : MonoBehaviour
         if (birdObject.birdIsAlive && collision.gameObject.layer == 7)
         {
             logicManager.updateScore(1);
-            audioManager.PlaySFX(audioManager.pointClip, false);
         }
     }
 }

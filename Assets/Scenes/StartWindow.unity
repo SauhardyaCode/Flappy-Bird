@@ -638,6 +638,7 @@ MonoBehaviour:
   sfxSource: {fileID: 89555451}
   backgroundClip: {fileID: 8300000, guid: 1aa77cf087182b9439ec1d926a573176, type: 3}
   buttonClip: {fileID: 8300000, guid: 027eee06ceccdab428ff6cdbbf996334, type: 3}
+  backgroundVolume: 0.6
   pitchRandomizeRange:
   - 0.9
   - 1.1

@@ -740,6 +740,8 @@ MonoBehaviour:
   buttonClip: {fileID: 8300000, guid: 027eee06ceccdab428ff6cdbbf996334, type: 3}
   gameOver1: {fileID: 8300000, guid: f9b75ee00b7923b4a887cb4b36e20874, type: 3}
   gameOver2: {fileID: 8300000, guid: 99230e6c7cf57e74fb9049ccb46eca3e, type: 3}
+  flapClip: {fileID: 8300000, guid: 50fd0529305f3b840bae01d1fec7dee8, type: 3}
+  backgroundVolume: 0.5
   pitchRandomizeRange:
   - 0.9
   - 1.1
@@ -1512,16 +1514,16 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 3.2
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 42a09d24ca6a5764f919dc5aa07134cb, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!212 &1392542180
 SpriteRenderer:
@@ -1586,13 +1588,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392542178}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.010878468}
-  m_LocalScale: {x: 0.92, y: 1.064, z: 1.51886}
+  m_LocalRotation: {x: 0, y: 0, z: 0.2075361, w: 0.9782274}
+  m_LocalPosition: {x: 0, y: 0, z: -0.010878}
+  m_LocalScale: {x: 0.6402648, y: 0.7404802, z: 1.057035}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 23.956}
 --- !u!114 &1392542182
 MonoBehaviour:
   m_ObjectHideFlags: 0

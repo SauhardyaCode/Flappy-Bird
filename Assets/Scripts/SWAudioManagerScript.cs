@@ -8,12 +8,14 @@ public class SWAudioManagerScript : MonoBehaviour
     public AudioClip backgroundClip;
     public AudioClip buttonClip;
 
+    public float backgroundVolume;
     public float[] pitchRandomizeRange = { 0.9f, 1.1f };
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         musicSource.clip = backgroundClip;
+        musicSource.volume = backgroundVolume;
         musicSource.Play();
     }
 
